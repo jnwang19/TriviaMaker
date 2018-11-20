@@ -6,6 +6,31 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorBackground">@color/colorPrimaryDark</item>
+        <item name="android:textColorPrimary">@android:color/background_light</item>
+        <item name="android:colorForeground">@android:color/background_light</item>
+        <item name="android:textColorPrimaryInverse">@color/colorPrimaryDark</item>
+        <item name="android:textColorSecondary">@color/colorPrimaryDark</item>
+        <item name="android:textColorSecondaryInverse">@color/colorPrimaryDark</item>
+        <item name="android:buttonTint">@color/colorPrimary</item>
+        <item name="android:colorButtonNormal">@color/colorPrimary</item>
+        <item name="android:editTextColor">@android:color/background_light</item>
+        <item name="android:textColorHint">@android:color/background_light</item>
+        <item name="android:textColor">@android:color/background_light</item>
+    </style>
+    <style name="AlertDialogCustom" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textColorPrimary">@color/colorPrimaryDark</item>
+        <item name="android:textColorSecondary">@color/colorPrimaryDark</item>
+        <item name="android:textColorSecondaryInverse">@color/colorPrimaryDark</item>
+        <item name="android:textColorPrimaryInverse">@color/colorPrimaryDark</item>
+        <item name="android:borderlessButtonStyle">@style/AlertDialogCustomButton</item>
+    </style>
+    <style name="AlertDialogCustomButton" parent="@android:style/Widget.Button">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textColorSecondary">@color/colorPrimaryDark</item>
+        <item name="android:textColorSecondaryInverse">@color/colorPrimaryDark</item>
+        <item name="android:textColorPrimaryInverse">@color/colorPrimaryDark</item>
+        <item name="android:textColorPrimary">@color/colorPrimaryDark</item>
     </style>
 
 </resources>

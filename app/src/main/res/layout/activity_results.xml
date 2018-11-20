@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.quizgame.triviamaker.ResultsActivity">
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quiz Finished!"
+        android:padding="16dp"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp" />
+
+    <TextView
+        android:layout_margin="32dp"
+        android:padding="16dp"
+        android:textSize="20sp"
+        android:id="@+id/tvScoreResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_below="@+id/tvResult"
+        android:text="You scored 9 out of 9" />
+
+    <TextView
+        android:layout_margin="16dp"
+        android:padding="16dp"
+        android:textSize="20sp"
+        android:id="@+id/tvGrade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_below="@+id/tvScoreResult"
+        android:text="Congratulations!" />
+
+    <Button
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Retry Quiz"
+        android:layout_margin="16dp"
+        android:padding="8dp"
+        android:id="@+id/bRetry"
+        android:layout_below="@+id/tvGrade" />
+
+    <Button
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Quit"
+        android:layout_margin="16dp"
+        android:padding="8dp"
+        android:id="@+id/bQuit"
+        android:layout_below="@+id/bRetry" />
+</RelativeLayout>

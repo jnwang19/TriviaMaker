@@ -1,4 +1,4 @@
-package com.example.triviamaker;
+package com.quizgame.triviamaker;
 
 import org.junit.Test;
 

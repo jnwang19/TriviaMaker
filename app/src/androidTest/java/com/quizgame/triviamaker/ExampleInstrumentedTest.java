@@ -1,4 +1,4 @@
-package com.example.triviamaker;
+package com.quizgame.triviamaker;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
